@@ -30,7 +30,7 @@ def find_the_cheese(array)
   
   array.each_with_index do |item, index|
     #checks each array via index, needs to find matching inside cheese_types 
-    cheese_types.include?  
+    cheese_types.include?{array}  
      
   end 
 end
