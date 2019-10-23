@@ -28,9 +28,9 @@ def find_the_cheese(array)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   
-  array.each_with_index do |index|
+  array.each_with_index do |item, index|
     #checks each array via index, needs to find matching inside cheese_types 
-    
-    end 
+      
+     
   end 
 end
